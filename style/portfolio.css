@@ -14,6 +14,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 
 .btn-primary{
     background-color: #FD6E0A;
@@ -38,12 +41,23 @@
     padding: 0;
 }
 
+/* Header styles */
+
+header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+
 /* Nav Styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 230px;
+    margin: 50px 150px;
 }
 .nav-title{
     font-size: 45px;
@@ -64,4 +78,47 @@ nav ul li{
 
 nav li a{
     text-decoration: none;
+}
+
+/* Banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    width: 500px;
+    /* border: 1px solid black; */
+    margin-left: 150px;
+    /* margin-top: 280px; */
+}
+
+.banner-greetings{
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.banner-description{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.banner-img{
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-right: 100px;
 }
