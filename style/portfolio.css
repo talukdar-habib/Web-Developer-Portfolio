@@ -13,6 +13,7 @@
 
 .dark-2{
     color: #474747;
+    font-weight: bold;
 }
 .dark-3{
     color: #757575;
@@ -46,9 +47,8 @@
 header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    margin-top: 20px;
-    /* border: 1px solid black; */
+    background-position: 30px 30px, bottom right;
+    background-color: #FFF8F3;
 }
 
 
@@ -57,7 +57,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 .nav-title{
     font-size: 45px;
@@ -89,7 +89,7 @@ nav li a{
 }
 
 .banner-content{
-    width: 500px;
+    max-width: 500px;
     /* border: 1px solid black; */
     margin-left: 150px;
     /* margin-top: 280px; */
@@ -121,4 +121,52 @@ nav li a{
     /* border: 1px solid black; */
     width: 500px;
     margin-right: 100px;
+}
+
+
+/* main styles */
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    /* border: 1px solid black; */
+}
+
+#about{
+    margin-top: 130px;
+    /* margin: 110px 220px; */
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+}
+
+.about-content{
+    background-color: white;
+    /* width: 800px; */
+    /* height: 300px; */
+    border: 1px solid black;
+}
+
+.about-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    margin-bottom: 10px;
 }
