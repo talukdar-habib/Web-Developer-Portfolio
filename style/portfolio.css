@@ -118,7 +118,6 @@ nav li a{
 }
 
 .banner-img{
-    /* border: 1px solid black; */
     width: 500px;
     margin-right: 100px;
 }
@@ -128,16 +127,19 @@ nav li a{
 main{
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #FFF8F3;
-    /* border: 1px solid black; */
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 #about{
-    margin-top: 130px;
     /* margin: 110px 220px; */
     padding: 130px 150px;
     border-radius: 10px;
     text-align: center;
+    background-color: #FFF8F3;
     /* background-color: white; */
     /* border: 1px solid black; */
 }
@@ -169,4 +171,50 @@ main{
 
 .item-title{
     margin-bottom: 10px;
+}
+
+
+#skills{
+    margin-top: 100px;
+}
+
+
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-container{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+
+.skill{
+    /* border: 1px solid black; */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill, .skill-title, img{
+    margin-bottom: 20px;
+}
+
+.skill-title{
+    font-size: 18px;
+}
+
+.skill-description{
+    font-size: 16px;
 }
