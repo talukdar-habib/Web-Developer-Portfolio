@@ -284,8 +284,10 @@ footer{
     background-color: #FFF8F3;
     padding: 100px 200px;
     display: flex;
+    justify-content: center;
+    /* align-items: center; */
     gap: 100px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .footer-content-title{
@@ -312,6 +314,11 @@ footer{
     margin-bottom: 20px;
 }
 
+.footer-form{
+    max-width: 400px;
+    /* border: 1px solid black; */
+}
+
 /* input{
     display: block;
     margin-bottom: 20px;
@@ -329,15 +336,18 @@ textarea{
 
 /* another way */
 input[type="text"], input[type="email"]{
-    width: 450px;
-    height: 50px;
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
     border-radius: 5px;
     border: none;
     padding: 10px 20px;
     margin-bottom: 20px;
+    /* border: 1px solid black; */
 }
 
 textarea{
+    font-size: 16px;
     border-radius: 5px;
     border: none;
     padding: 10px 20px;
