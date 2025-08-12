@@ -36,6 +36,18 @@
     cursor: pointer;
 }
 
+.btn-secondary{
+    background-color: white;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
 
 
 
